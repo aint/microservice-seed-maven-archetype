@@ -5,6 +5,18 @@
         xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
+    <requiredProperties>
+        <requiredProperty key="groupId">
+            <defaultValue>com.lebara</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="artifactId"/>
+        <requiredProperty key="version">
+            <defaultValue>1.0-SNAPSHOT</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="package">
+            <defaultValue>com.lebara</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true">
             <directory>src/main/java</directory>
