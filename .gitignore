@@ -1,0 +1,24 @@
+### Intellij ###
+.idea/
+*.iml
+out/
+
+### Java ###
+# Compiled class file
+*.class
+# Log file
+*.log
+
+### Maven ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+### Terraform ###
+terraform/.terraform/
+terraform/init.tf
+terraform/terraform.tfstate.d/
+terraform/plan*
+
+### macOS ###
+.DS_Store
+._*

@@ -1,0 +1,1 @@
+mvn archetype:generate -DarchetypeGroupId=com.lebara -DarchetypeArtifactId=seed-service -DarchetypeVersion=1.0-SNAPSHOT
